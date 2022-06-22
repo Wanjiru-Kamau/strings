@@ -1,0 +1,5 @@
+def string_upper(word):
+    middle_char=len(word)//2
+    sentence = word[:middle_char].upper()+word[middle_char:].lower()
+    print(sentence)
+string_upper("sakina")
